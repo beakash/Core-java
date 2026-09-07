@@ -30,5 +30,25 @@ output : 7
   ex:  int c = 5 & 7 ;
    System.out.println(c) ; 
 
-output : 2
-  
+  output : 2
+
+  // not Operator ~ : it flips 0 -> 1
+                               1 -> 0 
+  Shortcut =  ~x = -(x + 1 ) 
+  ex = 
+    int a = 5;
+  System.out.println( ~a) ;
+  output : -6 
+
+  //Left shift <<  :  left shift number k bits ko left side position krta hai
+  ex : 
+    int a = 5 ;
+    System.out.println( a << 1 ) ;
+   output : 
+   10 // 101 ko leftshift kra to 1010 which is the binary value of 10 
+
+  //Right shift >> :  Right shift number k bits ko Right side position krta hai 
+     ex : 
+       int a = 5;
+       System.out.println( a >> 1 ) ;
+       output : 2 // 101  ko Rightshift kra to 10 which is the binary value of 2 
