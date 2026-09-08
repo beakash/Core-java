@@ -1,0 +1,15 @@
+System.out.println();
+
+.System : a class of methods 
+.out : Static member of system class 
+.println  : Print all data types ( int,char,long,float,double,string,boolean) 
+           . Ek new line aajaegee.
+           . You can take only one argument. 
+print :   Print all data types
+       .  No new line
+       .  You can take only one argument. 
+
+
+Printf : Print + formatting 
+        . printf() does not automatically add a new line . 
+        . for adding new line you have to use \n yourself.
