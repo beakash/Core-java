@@ -13,5 +13,41 @@ In Java , access modifiers controls the visibiity/accessbility of classes,method
        } 
 //Another class cannot directly access marks or displayMarks()
 
-2.Default/Package- private : // When no access modifier 
+2.Default/Package- private : // When no access modifier is specified ,the member is accessible within the same package 
+
+  ex = 
+  class Student {
+      int marks = 90;
+
+      void displayMarks(){
+        System.out.println(marks);
+      }
+} 
+//Here,marks and displayMarks() can be accessed by other classes in the same package 
+
+3.Protected : //Accessible within the same package and also by subclasses in other packages. 
+
+class Animal {
+  protected void sound() {
+    System.out.println("Animal sound");
+  }
+} 
+
+class Dog extends Animal {
+  void display() {
+    sound();
+  }
+} 
+
+4.Public : //Accessible from anywhere , provided the class itself is accessible.
+
+public class Student {
+  public String name = "Akash" ; 
+
+  public void display() {
+    System.out.println(name);
+  }
+}
+        
+  
    
